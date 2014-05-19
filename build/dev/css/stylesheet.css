@@ -1,0 +1,177 @@
+/* line 1, ../../../src/sass/stylesheet.scss */
+button.overlay {
+  display: block;
+  width: 200px;
+  margin: auto;
+}
+
+/* line 7, ../../../src/sass/stylesheet.scss */
+.page {
+  margin: 30px auto;
+}
+
+/* line 12, ../../../src/sass/stylesheet.scss */
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  /*margin-right:15px;*/
+  background-color: #404053;
+}
+
+/* line 18, ../../../src/sass/stylesheet.scss */
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #404053;
+}
+
+/* line 22, ../../../src/sass/stylesheet.scss */
+.navbar {
+  max-width: 992px;
+  width: 100%;
+  border-radius: 0;
+  border: none;
+  margin: auto;
+  background: #1b1a2f;
+}
+/* line 30, ../../../src/sass/stylesheet.scss */
+.navbar .divider {
+  background-color: #404053;
+}
+
+/* line 36, ../../../src/sass/stylesheet.scss */
+.navbar-right {
+  width: 35%;
+}
+/* line 39, ../../../src/sass/stylesheet.scss */
+.navbar-right .nav-buy {
+  width: 100px;
+  float: right;
+}
+/* line 44, ../../../src/sass/stylesheet.scss */
+.navbar-right .nav-search {
+  float: right;
+  width: 55%;
+  margin-left: 5%;
+}
+/* line 49, ../../../src/sass/stylesheet.scss */
+.navbar-right .nav-search .search-box {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  /* line 58, ../../../src/sass/stylesheet.scss */
+  .navbar {
+    position: absolute;
+    top: 0;
+  }
+
+  /* line 66, ../../../src/sass/stylesheet.scss */
+  .container-fluid > .navbar-collapse,
+  .container-fluid > .navbar-header,
+  .container-fluid,
+  .navbar-nav {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 71, ../../../src/sass/stylesheet.scss */
+  .page {
+    margin-top: 80px;
+  }
+
+  /* line 75, ../../../src/sass/stylesheet.scss */
+  .navbar-right {
+    width: 100%;
+  }
+  /* line 78, ../../../src/sass/stylesheet.scss */
+  .navbar-right .nav-buy {
+    width: 100px;
+    float: left;
+  }
+  /* line 83, ../../../src/sass/stylesheet.scss */
+  .navbar-right .nav-search {
+    float: left;
+    width: 100%;
+    margin: 0;
+  }
+  /* line 88, ../../../src/sass/stylesheet.scss */
+  .navbar-right .nav-search .search-box {
+    width: 100%;
+    padding: 7.5px;
+  }
+  /* line 93, ../../../src/sass/stylesheet.scss */
+  .navbar-right .nav-search .input-group {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* line 103, ../../../src/sass/stylesheet.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff;
+    opacity: 0.6;
+    transition: opacity 0s;
+    font-size: 0.9em;
+  }
+}
+/* line 111, ../../../src/sass/stylesheet.scss */
+.navbar-collapse {
+  padding-left: 0;
+}
+
+/* line 117, ../../../src/sass/stylesheet.scss */
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+  transition: opacity 0s;
+  font-size: 0.9em;
+  padding: 15px 10px;
+  opacity: 0.8;
+}
+
+/* line 125, ../../../src/sass/stylesheet.scss */
+.navbar-default .navbar-nav > li > a:hover {
+  opacity: 1.0;
+  transition: background 0.15s, opacity 0.15s;
+  background-color: #404053;
+}
+
+/* line 131, ../../../src/sass/stylesheet.scss */
+.navbar-default .navbar-nav > li > a.simple-link {
+  text-align: right;
+}
+
+/* line 135, ../../../src/sass/stylesheet.scss */
+.navbar-default .navbar-nav > li > a.simple-link span {
+  margin-left: .5em;
+  margin-top: 2px;
+  display: block;
+  float: right;
+}
+
+/* line 143, ../../../src/sass/stylesheet.scss */
+.navbar-default .navbar-nav > li > a.simple-link:hover {
+  background-color: #1b1a2f;
+  text-decoration: underline;
+}
+
+/* line 150, ../../../src/sass/stylesheet.scss */
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #404053;
+  opacity: 1.0;
+  color: #fff;
+}
+
+/* line 156, ../../../src/sass/stylesheet.scss */
+.search-box {
+  margin-top: 7px;
+  margin-left: 1em;
+}
+
+/* line 161, ../../../src/sass/stylesheet.scss */
+.search-box button {
+  height: 34px;
+}
